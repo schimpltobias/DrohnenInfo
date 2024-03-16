@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial';
+    height: 100%;
+}
+
+
+/*Großes Bild ganz oben*/
+
+#begruessung:not(#begruessung_p) {
+    background-image: url(../img/pexels-erik-mclean-9182733.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 23rem;
+}
+
+#begruessung_p {
+    color: white;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+
+/*Allgemeine Einstellungen*/
+
+#container_alles {
+    margin: 3rem;
+    margin-top: 3rem;
+    padding: 0;
+    border: none;
+}
+
+#container_drohnen {
+    margin-top: 0rem;
+}
+
+#container_fpvdrohnen {
+    margin-top: 0rem;
+}
+
+#container_fpvdrohnen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#container_rechtliches {
+    margin-top: 0rem;
+}
+
+#container_rechtliches {
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+    margin-top: 5rem;
+}
+
+#mavic3_text,
+#mavicAir2s_text,
+#mini3Pro_text,
+#avata_text,
+#fpv_text,
+#a2_fernpilotenzeugnis_text {
+    line-height: 3rem;
+}
+
+#mavic3_text_modellname,
+#mavicAir2s_text_modellname,
+#mini3Pro_text_modellname,
+#avata_text_modellname,
+#fpv_text_modellname {
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container_buttons {
+    margin-top: 3rem;
+}
+
+.button {
+    background-color: #1e1e1e;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-radius: 3.5rem;
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.button:hover {
+    background-color: white;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-radius: 3.5rem;
+    color: #1e1e1e;
+    padding: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    transition: 0.25s ease;
+}
+
+
+/*Cinematische Drohnen------------------------------------------*/
+
+
+/*Erste Überschrift*/
+
+#ueberschriftLuftbildaufnahmen {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+
+/*Mavic 3*/
+
+#mavic3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+}
+
+#mavic3_bild {
+    grid-column: 1 / span 1;
+}
+
+#mavic3_img {
+    padding-left: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+#mavic3_text {
+    grid-column: 2 / span 1;
+    color: white;
+    padding-left: 1rem;
+}
+
+#mavic3_text_modellname {
+    font-size: 4rem;
+}
+
+
+/*Mavic Air 2s*/
+
+#mavicAir2s {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+    margin-top: 5rem;
+}
+
+#mavicAir2s_bild {
+    grid-column: 1 / span 1;
+}
+
+#mavicAir2s_img {
+    padding-left: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+#mavicAir2s_text {
+    grid-column: 2 / span 1;
+    color: white;
+    padding-left: 1rem;
+}
+
+#mavicAir2s_text_modellname {
+    font-size: 4rem;
+}
+
+
+/*Mini 3 Pro*/
+
+#mini3Pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+    margin-top: 5rem;
+}
+
+#mini3Pro_bild {
+    grid-column: 1 / span 1;
+}
+
+#mini3Pro_img {
+    padding-left: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+#mini3Pro_text {
+    grid-column: 2 / span 1;
+    color: white;
+    padding-left: 1rem;
+}
+
+#mini3Pro_text_modellname {
+    font-size: 4rem;
+}
+
+#mini3Pro_video {
+    margin-top: 5rem;
+}
+
+
+/*FPV-Drohnen-----------------------------------------------------*/
+
+
+/*Avata*/
+
+#ueberschriftFlugerlebnis {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#avata {
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+    /*margin-top: 5rem;*/
+    margin-right: 2.5rem;
+}
+
+#avata_img {
+    padding: 3rem;
+}
+
+#avata_text {
+    color: white;
+    padding-left: 3rem;
+}
+
+#avata_text_modellname {
+    font-size: 4rem;
+}
+
+#avata {
+    grid-column: 1 / span 1;
+}
+
+
+/*FPV*/
+
+#fpv {
+    background-color: #1e1e1e;
+    border-radius: 4rem;
+    /*margin-top: 5rem;*/
+    margin-left: 2.5rem;
+}
+
+#fpv_img {
+    padding: 3rem;
+}
+
+#fpv_text {
+    color: white;
+    padding-left: 3rem;
+}
+
+#fpv_text_modellname {
+    font-size: 4rem;
+}
+
+.aufzaehlungen_fpvdrohnen {
+    list-style-type: none;
+}
+
+
+/*Rechtliches-------------------------------------------*/
+
+#ueberschriftrechtliches {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#a2_fernpilotenzeugnis_text {
+    color: white;
+}
+
+#a2_fernpilotenzeugnis_img {
+    padding: 3rem;
+    opacity: 0.8;
+}
+
+#a2_fernpilotenzeugnis_text {
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+
+table,
+th,
+tr,
+td {
+    border: thin solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-size: 3rem;
+    padding: 1.5rem;
+    font-weight: bolder;
+}
+
+td {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+
+/*Footer----------------------------------------------*/
+
+footer {
+    margin-top: 5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+#footer_ersteller {
+    grid-column: 1 / span 1;
+}
+
+#footer_links {
+    grid-column: 2 / span 1;
+}
